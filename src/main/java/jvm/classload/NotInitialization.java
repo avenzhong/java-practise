@@ -7,7 +7,8 @@ package jvm.classload;
 public class NotInitialization {
 
     public static void main(String[] args) {
-
-        System.out.println(SubClass.value);
+        int a = SuperClass.value;
+//        SubClass subClass = new SubClass();
+//        System.out.println(SubClass.value);
     }
 }
